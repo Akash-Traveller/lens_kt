@@ -1,0 +1,101 @@
+.header {
+    background-color: #ffffff; /* Adjust background color as needed */
+    height: 90px; /* Adjust height as needed */
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    padding: 0 20px; /* Adjust padding as needed */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add drop shadow */
+  }
+  
+.icons {
+  
+    margin-left: 20px;
+    color: black;
+    font-size: 2.5em; 
+    display: flex;
+  
+}
+
+.logo{
+    margin-top: -30px;
+    margin-left: 20px;
+    height: 150px;
+    width: 150px;
+    display: flex;
+}
+.logo_text{
+    font-size: 1.3rem;
+    color: black;
+    font-weight: bold;
+    margin-top: -89px;
+    margin-left: 134px;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+/* .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    
+    .search {
+    width: 350px;
+    background-color: blue;
+    margin-top: 20px;
+   margin-left: 350px;
+   margin-right: 100px;
+   border-radius: 200px;
+
+    } */
+.cart_logo{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 35px;
+    width: 35px;
+    display: flex;
+}
+.cart_text{
+    margin-top: -30px;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 58px;
+   
+}
+.login_logo{
+    margin-top: 25px;
+    margin-left: 20px;
+    height: 35px;
+    width: 35px;
+    display: flex;
+}
+.login_text{
+    margin-top: -32px;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 58px;
+   
+}
+
+.user_logo{
+    margin-top: -50px;
+    margin-left: 80px;
+    height: 35px;
+    width: 35px;
+    display: flex;
+}
+.user_text{margin-top: 10px;
+    margin-left: 35px;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+   
+}

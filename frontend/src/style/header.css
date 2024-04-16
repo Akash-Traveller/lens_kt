@@ -1,0 +1,200 @@
+.header {
+    background-color:black; /* Adjust background color as needed */
+    height: 90px; /* Adjust height as needed */
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    padding: 0 20px; /* Adjust padding as needed */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add drop shadow */
+  }
+.icons_menu{
+    color: white;
+    font-size: 2.5rem;
+    margin-left: 5px;
+}
+
+.logo{
+    margin-top: -40px;
+    margin-left: 20px;
+    height: 150px;
+    width: 150px;
+    display: flex;
+}
+
+.logo_text {
+    font-size: 1.3rem;
+    font-weight:bold;
+    margin-top: -90px;
+    margin-left: 125px;
+    width: 100%;
+    font-family: 'Sansation';
+   font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+
+    background-image: linear-gradient(to top, white,#cdcdcd);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+
+.search-container {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    margin-left: 150px;
+    
+    }
+    
+    .search {
+   
+    width: 500px;
+    height: 43px;
+    margin-top: 20px;
+   margin-right: 110px;
+   margin-left: 50px;
+  border-radius: 40px;
+
+    }
+    .search_icons{
+        color: white;
+        font-size: 2em; 
+      margin-left: 300px;
+     
+    }
+.cart_icons{
+    margin-top: 1px;
+    color: white;
+    font-size: 2.5em; 
+    margin-right: -20px;
+ 
+}
+.cart_text{
+   font-size: 1.3rem;
+   font-weight:bold;
+   margin-top: -40px;
+   margin-left: 40px;
+   width: 100%;
+   font-family: 'Sansation';
+  font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 22px;
+
+   background-image: linear-gradient(to top, white,#cdcdcd);
+   -webkit-background-clip: text;
+   background-clip: text;
+   color: transparent;
+   
+}
+
+
+.user_text{
+    font-size: 1.3rem;
+    font-weight:bold;
+    margin-top: 20px;   
+    width: 100%;
+    font-family: 'Sansation';
+   font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    margin-left: 1px;
+
+    background-image: linear-gradient(to top, white,#cdcdcd);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+   
+}
+.user_icons {
+    border: 2px solid white;
+    border-radius: 100%;
+    height: 40px;
+    width: 50px;
+    padding: 2px;
+    margin-top: 12px;
+    margin-left: 50px;
+    color: white;
+    font-size: 1.4em; 
+    
+  
+}
+.drop_icons{
+    margin-top: 12px;
+   margin-left: -20px; 
+    color: white;
+    font-size: 2em; 
+    display: flex;
+}
+  
+/* Adjustments for mobile view */
+@media only screen and (max-width: 768px) {
+    .header {
+      flex-direction: column; /* Change flex direction to column */
+      padding: 10px; /* Adjust padding */
+      height: auto; /* Remove fixed height */
+      width: 100%;
+      text-align: center; /* Center align content */
+    }
+  
+    .search-container {
+      margin-left: 0; /* Adjust margin for search container */
+      display: none; 
+    }
+  
+    .cart_text,
+    .user_text,.drop_icons,.user_icons,.cart_icons {
+      margin-top: 5px; /* Adjust margin for text */
+      display: none; 
+    }
+  
+  
+ 
+    .logo{
+        margin-top: -103px;
+        margin-left: -100px;
+        height: 150px;
+        width: 150px;
+        display: flex;
+        padding-top: -30px;
+    }
+    
+    .logo_text {
+        font-size: 1rem;
+        font-weight:bold;
+        margin-top: -90px;
+        margin-left:5px;
+       
+        width: 100%;
+        font-family: 'Sansation';
+       font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 22px;
+    
+        background-image: linear-gradient(to top, white,#cdcdcd);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+
+    .icons_menu{
+        color: white;
+        font-size: 2.0rem;
+        margin-left: 260px;
+        margin-top: 25px;
+    }
+    .both{
+        margin-top: -10px;
+        margin-left: -70px;
+        padding: 15px;
+    }
+  }
+  

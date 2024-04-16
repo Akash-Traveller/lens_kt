@@ -1,0 +1,337 @@
+.land_bg {
+width: 1350px;
+height: 530px;
+background-image: url("C:\Users\Gokul\Desktop\Trained\lens_kt\frontend\src\Assets\landing_bg.png");
+position: relative;
+display: flex;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+
+.dis{
+display: flex;
+}
+.para {
+    background-color: lightgray;
+    height: 35px;
+    width: 100px;
+    border-radius: 2px;
+    margin-top: 20px;
+    padding: 5px;
+    padding-left: 9px;
+   margin-left:440px;
+}
+.heading{
+    font-size: 3.5rem;
+    font-weight:bold;
+    text-align: center;
+    width: 100%;
+    font-family: 'Sansation';
+   font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 30px;
+    width: 380px;
+    margin-left: 290px;
+    margin-right: 70px;
+}
+.para2 {
+    background-color: lightgray;
+    height: 35px;
+    width: 120px;
+    border-radius: 2px;
+    margin-top: 100px;
+    padding: 5px;
+    padding-left: 9px;
+   margin-left:100px;
+}
+.heading1{
+    font-size: 3rem;
+    font-weight:bold;
+    font-family: 'Sansation';
+   font-style: normal;
+    font-weight: 400;
+   
+    margin-top: 20px;
+    width: 400px;
+    margin-left:100px;
+    margin-right: 70px;
+}
+.para1 {
+    background-color: lightgray;
+    height: 35px;
+    width: 100px;
+    border-radius: 2px;
+    margin-top: 100px;
+    padding: 5px;
+    padding-left: 9px;
+   margin-left:100px;
+}
+
+.heading2{
+    font-size: 3rem;
+    font-weight:bold;
+    font-family: 'Sansation';
+   font-style: normal;
+    font-weight: 400;
+   
+    margin-top: 20px;
+    width: 500px;
+    margin-left:100px;
+    margin-right: 200px;
+}
+.image-container {
+    position: relative;
+   
+}
+
+.image-container::before {
+    content: "";
+    position: absolute;
+    top:90px;
+   margin-left: 140px;
+    width: 260px;
+    height: 350px; /* Adjust the thickness of the border as needed */
+   border:6px solid white;
+}
+
+.home_img {
+    height: 380px;
+    width: 300px;
+    transition: transform 0.3s ease;
+    z-index: 0;
+}
+.image-container:hover .home_img {
+    transform: scale(1.1); /* Scale up the image on hover */
+}
+
+
+.icons{
+    color: black;
+    margin-top: -24px;
+    font-size: 1.8rem;
+    margin-right: 7px;
+}
+
+.btn_shopnow{
+    margin-left: 400px;
+    margin-top: 40px;
+width: 158px;
+height: 50px;
+background: #FFFFFF;
+border: 3px solid #13AE5C;
+box-shadow: 0px 6px 0px #13AE5C;
+border-radius: 20px;
+font-family: 'Sansation';
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+
+}
+.btn_shopnow1{
+    margin-left: 600px;
+    margin-top: -440px;
+width: 158px;
+height: 50px;
+background: #FFFFFF;
+border: 3px solid #13AE5C;
+box-shadow: 0px 6px 0px #13AE5C;
+border-radius: 20px;
+font-family: 'Sansation';
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+
+}
+
+/* HeroSlider.css */
+
+.hero-slider {
+    width: 100%;
+  }
+  
+  /* Style for the slider dots */
+  .slick-dots {
+    position: absolute;
+    bottom: 20px;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .slick-dots li button {
+    font-size: 12px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    width: 32px;
+    height: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .slick-dots li.slick-active button {
+    background-color: #666;
+  }
+  
+  /* Style for the slider images */
+  .slick-slide img {
+    margin-left: 120px;
+    margin-top: 75px;
+    height: 380px;
+    width: 300px;
+  }
+  
+.boader{
+    margin-top: -200px;
+    border: 5px solid black;
+    width: 300px;
+    height: 200px;
+}
+/* Add this CSS to your 'landing.css' file */
+
+/* General styles for mobile view */
+@media only screen and (max-width: 767px) {
+    .land_bg {
+      width: 100%;
+      height: auto; /* Let the height adjust according to content */
+      background-size: cover; /* Ensure the background image covers the entire container */
+    }
+  
+    .dis {
+      flex-direction: column; /* Stack items vertically on mobile */
+      align-items: center; /* Center items horizontally */
+    }
+  
+    .para {
+      margin: 20px 0; /* Adjust margin for spacing */
+      text-align: center; /* Center the text */
+      margin-left: 0; /* Remove left margin */
+      width: auto; /* Let the width adjust according to content */
+    }
+  
+    .heading {
+      margin: 20px 0; /* Adjust margin for spacing */
+      width: 100%; /* Take full width */
+      margin-left: 0; /* Remove left margin */
+      margin-right: 0; /* Remove right margin */
+      text-align: center; /* Center the text */
+    }
+  
+    .home_img {
+      margin: 20px auto; /* Center the image horizontally and add vertical margin */
+      width: 80%; /* Make the image responsive */
+      height: auto; /* Ensure aspect ratio is maintained */
+    }
+  
+    .icons {
+      margin: 10px 0; /* Adjust margin for spacing */
+      text-align: center; /* Center the icons */
+    }
+  
+    .btn_shopnow {
+      margin: 20px auto; /* Center the button horizontally and add vertical margin */
+      display: block; /* Ensure the button takes full width on mobile */
+      width: 80%; /* Make the button responsive */
+    }
+  }
+  
+  /* Styles for larger screens (non-mobile) */
+  .land_bg {
+    width: 1350px;
+    height: 530px;
+    background-image: url("C:\Users\Gokul\Desktop\Trained\lens_kt\frontend\src\Assets\landing_bg.png");
+    position: relative;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .dis {
+    display: flex;
+  }
+  
+  .para {
+    background-color: lightgray;
+    height: 35px;
+    width: 100px;
+    border-radius: 2px;
+    margin-top: 20px;
+    padding: 5px;
+    padding-left: 9px;
+    margin-left: 440px;
+  }
+  
+  .heading {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    font-family: 'Sansation';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 30px;
+    width: 380px;
+    margin-left: 290px;
+    margin-right: 70px;
+  }
+  
+  .home_img {
+    margin-left: 120px;
+    margin-top: 75px;
+    height: 380px;
+    width: 300px;
+  }
+  
+  .icons {
+    color: black;
+    margin-top: -24px;
+    font-size: 1.8rem;
+    margin-right: 7px;
+  }
+  
+  .btn_shopnow {
+    margin-left: 400px;
+    margin-top: 40px;
+    width: 158px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 3px solid #13AE5C;
+    box-shadow: 0px 4px 0px #13AE5C;
+    border-radius: 22px;
+    font-family: 'Sansation';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .container {
+    display: flex;
+    margin-top: 50px;
+    overflow-x: auto;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .container.visible {
+    opacity: 1;
+  }
+  
+  .item {
+    margin-right: 10px;
+    height: 260px;
+    width: 200px;
+    object-fit: cover;
+  }
+  
